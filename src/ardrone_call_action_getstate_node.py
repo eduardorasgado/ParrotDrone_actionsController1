@@ -128,4 +128,4 @@ class Fly:
         
 if __name__ == "__main__":
     
-    photoFly = Fly(secondstofly=9)
+    photoFly = Fly(secondstofly=20)

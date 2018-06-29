@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   geometry_msgs
   std_msgs
+  actionlib_tutorials
 )
 
 ## System dependencies are found with CMake's conventions
@@ -108,7 +109,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES my_action_pkg
-#  CATKIN_DEPENDS actionlib ardrone_as rospy
+  CATKIN_DEPENDS actionlib ardrone_as rospy actionlib_tutorials
 #  DEPENDS system_lib
 )
 

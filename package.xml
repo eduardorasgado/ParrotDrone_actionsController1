@@ -42,9 +42,11 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>actionlib</build_depend>
   <build_depend>ardrone_as</build_depend>
+  <build_depend>actionlib_tutorials</build_depend>
   <build_depend>rospy</build_depend>
   <run_depend>actionlib</run_depend>
   <run_depend>ardrone_as</run_depend>
+  <run_depend>actionlib_tutorials</run_depend>
   <run_depend>rospy</run_depend>
 
 
